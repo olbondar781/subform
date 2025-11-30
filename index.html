@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Підписка</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="card" id="subscribeForm">
+        <img src="https://via.placeholder.com/150" />
+        <h1>Subscribe to our Newsletter</h1>
+        <input type="text" id="emailInput" placeholder="Введіть email" />
+        <button type="submit">Subscribe</button>
+      </form>
+
+      <dialog id="successDialog" class="dialog">
+        <img src="https://via.placeholder.com/150" />
+        <h2>
+          Your subscription has been placed for your email
+          <strong id="userEmail"></strong>!
+        </h2>
+        <button>Thanks!</button>
+      </dialog>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
