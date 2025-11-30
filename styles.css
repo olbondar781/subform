@@ -26,6 +26,22 @@ body {
   width: 320px;
 }
 
+.card img {
+  width: 100%;
+  max-width: 240px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.dialog img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+
 input {
   padding: 12px;
   width: 100%;
