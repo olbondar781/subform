@@ -2,7 +2,7 @@
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <title>Підписка</title>
+    <title>Subscription</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -10,7 +10,10 @@
       <form class="card" id="subscribeForm">
         <img src="https://via.placeholder.com/150" />
         <h1>Subscribe to our Newsletter</h1>
+
         <input type="text" id="emailInput" placeholder="Введіть email" />
+        <span class="error" id="emailError"></span>
+
         <button type="submit">Subscribe</button>
       </form>
 
@@ -20,7 +23,7 @@
           Your subscription has been placed for your email
           <strong id="userEmail"></strong>!
         </h2>
-        <button>Thanks!</button>
+        <button id="closeDialog">Thanks!</button>
       </dialog>
     </div>
 

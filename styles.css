@@ -50,3 +50,8 @@ dialog {
   color: black;
   text-align: center;
 }
+.error {
+  color: #FFB2C2;
+  font-size: 14px;
+  height: 16px;
+}
